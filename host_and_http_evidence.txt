@@ -1,0 +1,109 @@
+=== INFECTED HOST MAC ===
+IP: 172.16.4.193 -> MAC: 5c:26:0a:02:a8:e4
+
+=== NETBIOS / DHCP RAW STRINGS ===
+' FDFEEFFHEJEFCNFAEDCACACACACACACA\x00\x00 \x00\x01À\x0c\x00 \x00\x01\x00\x00\x00\x00\x00\x06\x00\x00¬\x10\x04Á'
+' FHEPFCELEHFCEPFFFACACACACACACAAA\x00\x00 \x00\x01À\x0c\x00 \x00\x01\x00\x00\x00\x00\x00\x06\x80\x00¬\x10\x04Á'
+' FDFEEFFHEJEFCNFAEDCACACACACACAAA\x00\x00 \x00\x01À\x0c\x00 \x00\x01\x00\x00\x00\x00\x00\x06\x00\x00¬\x10\x04Á'
+
+=== HTTP HEADERS & TIMELINE ===
+172.16.4.193 -> 66.152.103.72 | GET /ncsi.txt HTTP/1.1
+172.16.4.193 -> 66.152.103.72 | User-Agent: Microsoft NCSI
+172.16.4.193 -> 66.152.103.72 | Host: www.msftncsi.com
+66.152.103.72 -> 172.16.4.193 | HTTP/1.1 200 OK
+66.152.103.72 -> 172.16.4.193 | Content-Type: text/plain
+172.16.4.193 -> 204.79.197.200 | GET / HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: text/html; charset=utf-8
+172.16.4.193 -> 204.79.197.200 | GET /s/a/hpc18.png HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: image/png
+172.16.4.193 -> 204.79.197.200 | GET /fd/s/a/hp/bing.svg HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+172.16.4.193 -> 204.79.197.200 | GET /fd/ls/l?IG=194EC908DA65455B9E9A98285A33132B&Type=Event.CPT&DATA={"pp":{"S":"L","FC":-1,"BC":-1,"SE":-1,"TC":-1,"H":125,"BP":187,"CT":209,"IL":3},"ad":[-1,-1,878,551,878,551,1]}&P=SERP&DA=BN1&MN=SERP HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: image/svg+xml
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 204 OK
+172.16.4.193 -> 204.79.197.200 | POST /fd/ls/lsp.aspx? HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Content-Type: text/xml
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+172.16.4.193 -> 204.79.197.200 | GET /rms/BingCore.Bundle/jc,nj/5353b0f3/0774d476.js?bu=rms+answers+Shared+BingCore%24ClientInstV2%24DuplicateXlsDefaultConfig%2cBingCore%24ClientInstV2%24SharedLocalStorageConfigDefault%2cBingCore%24shared%2cBingCore%24env.override%2cEmpty%2cBingCore%24event.custom.fix%2cBingCore%24event.native%2cBingCore%24onHTML%2cBingCore%24dom%2cBingCore%24cookies%2cBingCore%24rmsajax%2cBingCore%24ClientInstV2%24LogUploadCapFeatureDisabled%2cBingCore%24ClientInstV2%24ClientInstConfigSeparateOfflineQueue%2cBingCore%24clientinst%2cBingCore%24replay%2cBingCore%24Animation%2cBingCore%24fadeAnimation%2cBingCore%24framework HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: application/x-javascript; charset=utf-8
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 204 OK
+172.16.4.193 -> 204.79.197.200 | GET /rms/rms%20answers%20Rewards%20ReportActivityBootstrap/jc,nj/5d440020/4a4ee9e1.js HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+172.16.4.193 -> 204.79.197.200 | GET /rms/Framework/jc,nj/749cc5d8/0e21f76a.js?bu=rms+answers+BoxModel+config.instant%2ccore%2ccore%24viewport%2ccore%24layout%2ccore%24metrics%2cmodules%24mutation%2cmodules%24error%2cmodules%24network%2cmodules%24cursor%2cmodules%24keyboard%2cmodules%24bot HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+172.16.4.193 -> 204.79.197.200 | POST /rewardsapp/ncheader?ver=8_1_2_6162224&IID=SERP.5060&IG=194EC908DA65455B9E9A98285A33132B HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Content-Type: application/x-www-form-urlencoded
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: application/x-javascript; charset=utf-8
+172.16.4.193 -> 204.79.197.200 | POST /rewardsapp/reportActivity HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Content-Type: application/x-www-form-urlencoded
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: application/x-javascript; charset=utf-8
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: text/html; charset=utf-8
+172.16.4.193 -> 204.79.197.200 | GET /rms/Framework/jc,nj/749cc5d8/0e21f76a.js?bu=rms+answers+BoxModel+config.instant%2ccore%2ccore%24viewport%2ccore%24layout%2ccore%24metrics%2cmodules%24mutation%2cmodules%24error%2cmodules%24network%2cmodules%24cursor%2cmodules%24keyboard%2cmodules%24bot HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 206 Partial Content
+204.79.197.200 -> 172.16.4.193 | Content-Type: application/x-javascript; charset=utf-8
+172.16.4.193 -> 204.79.197.200 | GET /az/hprichbg/rb/VillersAbbey_EN-US10350783163_1920x1080.jpg HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: application/x-javascript; charset=utf-8
+172.16.4.193 -> 204.79.197.200 | GET /sa/8_1_2_6162224/HPImgVidViewer_c.js HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+172.16.4.193 -> 204.79.197.200 | GET /sa/simg/bing_p_rr_teal_min.ico HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: image/jpeg
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: application/x-javascript
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 200 OK
+204.79.197.200 -> 172.16.4.193 | Content-Type: image/x-icon
+172.16.4.193 -> 204.79.197.200 | POST /fd/ls/lsp.aspx HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Content-Type: text/xml
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+204.79.197.200 -> 172.16.4.193 | HTTP/1.1 204 OK
+172.16.4.193 -> 204.79.197.200 | GET /notifications/render?bnptrigger=%7B%22PartnerId%22%3A%22HomePage%22%2C%22IID%22%3A%22SERP.2000%22%2C%22Attributes%22%3A%7B%22RawRequestURL%22%3A%22%2F%22%7D%7D&IG=194EC908DA65455B9E9A98285A33132B&IID=SERP.2000 HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+172.16.4.193 -> 204.79.197.200 | Host: www.bing.com
+172.16.4.193 -> 204.79.197.200 | GET /HPImageArchive.aspx?format=js&idx=0&n=1&nc=1485557632569&pid=hp&video=1&fav=1 HTTP/1.1
+172.16.4.193 -> 204.79.197.200 | Referer: http://www.bing.com/
+172.16.4.193 -> 204.79.197.200 | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
